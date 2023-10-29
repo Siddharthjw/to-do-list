@@ -1,0 +1,32 @@
+PHP Task Management Application - User Guide
+
+
+Adding a Task:
+Tasks can be added to the list in two ways:
+
+##Click on "Add Task" Button: Enter the task in the input field and click the "Add Task" button.
+
+
+##Press Enter Key: Type the task in the input field and press the "Enter" key on your keyboard.
+---------------------------------------------------------------------------------------------------
+
+Completing a Task:
+
+To mark a task as completed, click on the "Complete" button next to the task. The task will be marked as completed, and a checkmark will appear in the checkbox.
+
+
+Deleting a Task:
+To remove a task from the list, click on the "Delete" button next to the task. The task will be deleted and will no longer appear in the list.
+
+
+Task Persistence:
+
+Tasks are stored in a database, ensuring that they persist even if the page is refreshed, or if the user closes and reopens the website.
+Completed tasks and their status are also saved, allowing users to track completed tasks over multiple sessions.
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Task Display:
+
+Tasks are displayed in a list format, showing the task name, a checkbox indicating completion status, and buttons for completing and deleting tasks.
+Completed tasks are indicated by a checkmark in the checkbox.
+Tasks are listed in the order they were added.

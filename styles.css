@@ -1,0 +1,140 @@
+body {
+    background: url('background.jpg'); /* Replace 'background.jpg' with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    color: #fff;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+/* ... (your existing CSS styles) ... */
+
+.task-item {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.task-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.task-checkbox {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.task-name-button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.complete-button, .delete-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* ... (your existing styles) ... */
+
+
+.task-input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #3498db;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    margin-left: 0;
+}
+
+.add-task-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+}
+
+.task-checkbox {
+    width: 30px;
+    height: 30px;
+    background-color: #3498db; /* Change this color to a bright shade, for example, #5da2d5 */
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid #2980b9; /* Change this color to a slightly darker shade for the border */
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task-buttons button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: #ffffff;
+}
+
